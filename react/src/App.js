@@ -66,20 +66,12 @@ function App() {
       <header className="App-header">
         <div className="response-box">{response}</div>
         <button onClick={handleSimpleGet}>Simple Get</button>
-        <div>
-          <input type="text" value={text} onChange={(e) => handleChange(e, "text")} placeholder="text" />
-        </div>
+        <input type="text" value={text} onChange={(e) => handleChange(e, "text")} placeholder="text" />
         <button onClick={handleDynamicGet}>Dynamic Get</button>
-        <div>
-          <input type="text" value={pokemon} onChange={(e) => handleChange(e, "pokemon")} placeholder="pokemon" />
-        </div>
+        <input type="text" value={pokemon} onChange={(e) => handleChange(e, "pokemon")} placeholder="pokemon" />
         <button onClick={handlePokemonGet}>Pokemon</button>
-        <div>
-          <input type="text" value={email} onChange={(e) => handleChange(e, "email")} placeholder="email" />
-        </div>
-        <div>
-          <input type="text" value={password} onChange={(e) => handleChange(e, "password")} placeholder="password" />
-        </div>
+        <input type="text" value={email} onChange={(e) => handleChange(e, "email")} placeholder="email" />
+        <input type="text" value={password} onChange={(e) => handleChange(e, "password")} placeholder="password" />
         <button onClick={handleAddUser}>Add User</button>
       </header>
     </div>

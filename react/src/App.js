@@ -26,7 +26,6 @@ function App() {
     try {
       const res = await axios.get('http://localhost:5001/v1/simple-get');
       setResponse(res.data);
-      console.log(res)
     } catch (error) {
       setResponse('Error in Simple Get: ' + error);
     }

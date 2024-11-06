@@ -154,10 +154,3 @@ function handleChange(e, target){
   }
 }
 ```
-  res.status(200).send('User verified successfully.');
-    } else {
-      res.status(401).send('Invalid email or password.');
-    }
-  });
-});
-```
